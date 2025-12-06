@@ -1,0 +1,8 @@
+.calendar-grid{ display:grid; grid-template-columns: repeat(7, 1fr); gap: 10px; margin-top: 16px; }
+.day{ background: #fff; border-radius: 8px; padding: 8px; min-height: 80px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); cursor:pointer; }
+.day.present { border-left: 6px solid #2ecc71; }
+.day.absent { border-left: 6px solid #e74c3c; }
+.day.late { border-left: 6px solid #f1c40f; }
+.day.halfday { border-left: 6px solid #e67e22; }
+.date-num { font-weight: 700; }
+.date-label { margin-top:8px; font-size:12px; color:#555; }
